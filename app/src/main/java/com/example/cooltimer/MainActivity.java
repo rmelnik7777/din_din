@@ -70,8 +70,12 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
     }
 
     public void start(View view) {
-
+        if (mediaPlayer != null && mediaPlayer.isPlaying()) {
+            mediaPlayer.stop();
+            imageView.setImageResource(R.drawable.original);
+        }
         if (!isTimerOn) {
+
             button.setText("Stop");
             seekBar.setEnabled(false);
             isTimerOn = true;
