@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_settings_white_24dp"
+        android:title="Settings"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_about"
+        android:title="About"
+        android:icon="@drawable/ic_info_outline_white_24dp"
+        android:orderInCategory="110"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_purchase"
+        android:title="Purchase"
+        android:orderInCategory="55"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_monetization_on_white_24dp"
+        />
+    <item
+        android:id="@+id/action_stop"
+        android:title="Stop Music"
+        android:icon="@drawable/ic_pause_circle_outline_white_24dp"
+        android:orderInCategory="120"
+        app:showAsAction="always"
+        />
+
+</menu>

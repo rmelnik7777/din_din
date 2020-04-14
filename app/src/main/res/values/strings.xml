@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Cool Timer</string>
+    <string name="_00_30">00:30</string>
+    <string name="start">Start</string>
+    <string name="todo">TODO</string>
+    <string name="Settings">Settings</string>
+    <string name="About">About</string>
+</resources>

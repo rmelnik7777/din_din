@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_timer_melody_labels">
+
+        <item>USA</item>
+        <item>Germany</item>
+        <item>Korea</item>
+
+    </array>
+
+    <array name="pref_timer_melody_values">
+        <item>USA</item>
+        <item>Germany</item>
+        <item>Korea</item>
+    </array>
+
+</resources>
